@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenith Web — Premium Digital Experiences That Elevate Brands</title>
+  <meta name="description" content="Zenith Web is a premium web design and development agency crafting modern websites, landing pages, UI/UX design, and digital experiences that help businesses grow online in Nigeria and worldwide." />
+  <link rel="canonical" href="https://zenithweb.onrender.com/" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Zenith Web — Premium Digital Experiences That Elevate Brands" />
+  <meta property="og:description" content="Premium web design and development agency building modern websites, UI/UX, and digital experiences that help businesses grow online." />
+  <meta property="og:url" content="https://zenithweb.onrender.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Zenith Web" />
+  <meta property="og:image" content="https://zenithweb.onrender.com/assets/images/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zenith Web — Premium Digital Experiences That Elevate Brands" />
+  <meta name="twitter:description" content="Premium web design and development agency building modern websites, UI/UX, and digital experiences that help businesses grow online." />
+  <meta name="twitter:image" content="https://zenithweb.onrender.com/assets/images/og-image.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Zenith Web",
+    "url": "https://zenithweb.onrender.com/",
+    "logo": "https://zenithweb.onrender.com/assets/images/logo.png",
+    "description": "Premium web design and development agency crafting modern websites, UI/UX design, and digital experiences.",
+    "address": { "@type": "PostalAddress", "addressCountry": "Nigeria" },
+    "contactPoint": { "@type": "ContactPoint", "telephone": "+2347084007921", "contactType": "Sales", "availableLanguage": ["English"] },
+    "sameAs": [ "https://instagram.com/zenithwebofficial111", "https://tiktok.com/@zenith_web" ]
+  }
+  </script>
+  <link rel="manifest" href="/web.manifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="cursor-ring" id="cursorRing"><span class="cursor-ring__label" id="cursorLabel">View</span></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__count" id="preCount">0</div>
+    <div class="preloader__mark">
+      <svg viewBox="0 0 64 64">
+        <path d="M6 46 L24 18 L34 34 L42 22 L58 46" />
+      </svg>
+    </div>
+    <div class="preloader__word">ZENITH WEB</div>
+    <div class="preloader__bar"><div class="preloader__bar-fill" id="preBar"></div></div>
+  </div>
+  <div class="preloader__curtain" id="curtain"></div>
+  <div class="ascent-progress"><div class="ascent-progress__fill" id="progressFill"></div></div>
+  <nav class="nav" id="mainNav">
+    <a href="#home" class="nav__logo">
+      <img src="assets/images/logo.png" alt="Zenith Web" width="30" height="30" />
+      Zenith<span>Web</span>
+    </a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#home"><i class="fa-regular fa-building"></i> Home</a></li>
+      <li><a href="#about"><i class="fa-regular fa-circle-user"></i> About</a></li>
+      <li><a href="#founder"><i class="fa-regular fa-user"></i> Founder</a></li>
+      <li><a href="#services"><i class="fa-regular fa-compass"></i> Services</a></li>
+      <li><a href="#pricing"><i class="fa-regular fa-credit-card"></i> Pricing</a></li>
+      <li><a href="#portfolio"><i class="fa-regular fa-folder"></i> Portfolio</a></li>
+      <li><a href="#contact"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="#contact" class="btn btn-primary">Start Your Project <i class="fa-solid fa-arrow-up-right"></i></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+  <header class="hero container" id="home">
+    <div class="hero__bg-glow"></div>
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <h1 class="hero__headline">
+          <span class="line"><span>Crafting Digital</span></span>
+          <span class="line"><span>Experiences That</span></span>
+          <span class="line"><span><em>Elevate Brands.</em></span></span>
+        </h1>
+        <p class="hero__sub" id="heroSub">Premium websites that build trust, attract customers, and help businesses grow. Designed for impact, built for performance.</p>
+        <div class="hero__actions" id="heroActions">
+          <a href="#contact" class="btn btn-primary">Start Your Project <i class="fa-solid fa-arrow-up-right"></i></a>
+          <a href="#portfolio" class="btn btn-ghost">View Our Work <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero__meta" id="heroMeta">
+          <div><strong>4+</strong><span>Projects Delivered</span></div>
+          <div><strong>100%</strong><span>Client Satisfaction</span></div>
+          <div><strong>2026</strong><span>Launched Premium</span></div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="build-scene" id="buildScene">
+          <div class="build-grid"></div>
+          <svg class="build-lines" viewBox="0 0 400 400" preserveAspectRatio="none" aria-hidden="true">
+            <line class="build-line build-line--draw" id="buildLine1" x1="70" y1="330" x2="150" y2="230"/>
+            <line class="build-line build-line--draw" id="buildLine2" x1="150" y1="230" x2="250" y2="130"/>
+            <line class="build-line build-line--draw" id="buildLine3" x1="250" y1="130" x2="320" y2="60"/>
+          </svg>
+          <span class="build-node" id="buildNode1" style="left:150px; top:230px;"></span>
+          <span class="build-node" id="buildNode2" style="left:320px; top:60px;"></span>
+          <div class="build-window build-window--back" id="winBack">
+            <div class="build-window__bar"><span></span><span></span><span></span></div>
+            <div class="build-window__body">
+              <div class="build-window__line w45"></div>
+              <div class="build-window__line w70"></div>
+            </div>
+          </div>
+          <div class="build-window build-window--mid" id="winMid">
+            <div class="build-window__bar"><span></span><span></span><span></span></div>
+            <div class="build-window__body">
+              <div class="build-window__line w90"></div>
+              <div class="build-window__line w45"></div>
+              <div class="build-window__block"></div>
+            </div>
+          </div>
+          <div class="build-window build-window--front" id="winFront">
+            <div class="build-window__bar"><span></span><span></span><span></span></div>
+            <div class="build-window__body">
+              <div class="build-window__line w70"></div>
+              <div class="build-window__block"></div>
+            </div>
+          </div>
+          <div id="buildTrail">
+            <span class="trail-node" style="left:9%; top:16%;"></span>
+            <span class="trail-node" style="left:22%; top:9%;"></span>
+            <span class="trail-node" style="left:38%; top:16%;"></span>
+            <span class="trail-node" style="left:58%; top:9%;"></span>
+            <span class="trail-node" style="left:78%; top:16%;"></span>
+            <span class="trail-node" style="left:91%; top:28%;"></span>
+            <span class="trail-node" style="left:12%; top:42%;"></span>
+            <span class="trail-node" style="left:30%; top:46%;"></span>
+            <span class="trail-node" style="left:8%; top:64%;"></span>
+            <span class="trail-node" style="left:26%; top:72%;"></span>
+            <span class="trail-node" style="left:44%; top:78%;"></span>
+            <span class="trail-node" style="left:62%; top:70%;"></span>
+            <span class="trail-node" style="left:80%; top:80%;"></span>
+            <span class="trail-node" style="left:92%; top:60%;"></span>
+            <span class="trail-node" style="left:66%; top:30%;"></span>
+            <span class="trail-node" style="left:50%; top:52%;"></span>
+          </div>
+          <span class="build-hint" id="buildHint"><i class="fa-solid fa-arrow-pointer"></i>Move your cursor — watch it build</span>
+        </div>
+        <div class="float-card float-card--1"><strong>Big Wura</strong>Our first client, live</div>
+        <div class="float-card float-card--2"><strong>Est. 2026</strong>Premium from day one</div>
+      </div>
+    </div>
+  </header>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span><em>Build Beyond Limits</em> <i class="fa-solid fa-circle"></i> Web Design <i class="fa-solid fa-circle"></i> Development <i class="fa-solid fa-circle"></i> UI/UX <i class="fa-solid fa-circle"></i> Performance <i class="fa-solid fa-circle"></i> Craftsmanship <i class="fa-solid fa-circle"></i></span>
+      <span><em>Build Beyond Limits</em> <i class="fa-solid fa-circle"></i> Web Design <i class="fa-solid fa-circle"></i> Development <i class="fa-solid fa-circle"></i> UI/UX <i class="fa-solid fa-circle"></i> Performance <i class="fa-solid fa-circle"></i> Craftsmanship <i class="fa-solid fa-circle"></i></span>
+    </div>
+  </div>
+  <section id="about" class="container">
+    <div class="about-wrap">
+      <div class="about-copy reveal-up">
+        <div class="eyebrow">About Zenith Web</div>
+        <h2>More Than Websites. We Build Digital Experiences.</h2>
+        <p>Zenith Web is a premium web design and development studio. We work to one standard — Build Beyond Limits — because we believe every business deserves a website that creates confidence from the very first visit.</p>
+        <p>We'd rather get the details right than get it out the door fast. Craftsmanship comes before speed, and every relationship matters more to us than any single project.</p>
+        <p>We're early in our journey, which means every client right now gets our complete, undivided attention. It's how we intend to grow into one of Africa's leading premium web design studios — recognized well beyond it.</p>
+      </div>
+      <div class="about-visual reveal-card">
+        <div class="about-grid"></div>
+        <div class="about-frame about-frame--accent"></div>
+        <div class="about-frame about-frame--main">
+          <div class="about-frame__bar"><span></span><span></span><span></span></div>
+          <div class="about-frame__body">
+            <div class="about-frame__line w40"></div>
+            <div class="about-frame__line w80"></div>
+            <div class="about-frame__line w60"></div>
+            <div class="about-frame__block"></div>
+          </div>
+        </div>
+        <div class="about-float"><strong>End-to-End</strong>Strategy, design & build</div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section id="founder" class="container">
+    <div class="founder-wrap reveal-up">
+      <div class="founder-image">
+        <img src="assets/images/founder.jpg" alt="Ifeanyichukwu Collins — Founder of Zenith Web" loading="lazy" />
+        <div class="founder-socials">
+          <a href="https://ng.linkedin.com/in/collins-ifeanyichukwu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/kariosv4sure" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://karios-portfolio.onrender.com" target="_blank" rel="noopener noreferrer" aria-label="Portfolio"><i class="fa-solid fa-briefcase"></i></a>
+        </div>
+      </div>
+      <div class="founder-copy reveal-up">
+        <div class="eyebrow">Meet the Founder</div>
+        <h2>Ifeanyichukwu Collins</h2>
+        <p class="founder-title">Founder &amp; Lead Designer</p>
+        <p>Ifeanyichukwu Collins is the founder and lead designer at Zenith Web. A full-stack developer and AI engineer by trade, he brings a unique blend of technical depth and design intuition to every project.</p>
+        <p>With experience building scalable web applications, RESTful APIs, and AI-powered solutions, Ifeanyichukwu understands what it takes to create digital experiences that aren't just beautiful — but actually work. His approach combines modern design principles with clean, maintainable code, ensuring every website is as functional as it is stunning.</p>
+        <p>Starting from Nigeria with a vision to go global, he believes every business deserves a website that builds confidence from the very first visit.</p>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section id="why" class="container">
+    <div class="section-head reveal-up">
+      <div class="eyebrow">Why Choose Zenith Web</div>
+      <h2>Why businesses choose Zenith Web.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal-card"><i class="fa-solid fa-swatchbook"></i><h3>Premium Design</h3><p>Beautiful, modern websites designed to leave lasting impressions.</p></div>
+      <div class="why-card reveal-card"><i class="fa-solid fa-mobile-screen"></i><h3>Responsive Experience</h3><p>Perfectly optimized for every screen size.</p></div>
+      <div class="why-card reveal-card"><i class="fa-solid fa-gauge-high"></i><h3>Lightning Performance</h3><p>Fast-loading experiences built with clean code.</p></div>
+      <div class="why-card reveal-card"><i class="fa-solid fa-magnifying-glass-chart"></i><h3>SEO Ready</h3><p>Built with best practices to help businesses become more discoverable.</p></div>
+      <div class="why-card reveal-card"><i class="fa-solid fa-arrow-trend-up"></i><h3>Conversion Focused</h3><p>Every layout is designed to turn visitors into customers.</p></div>
+      <div class="why-card reveal-card"><i class="fa-solid fa-handshake"></i><h3>Long-Term Partnership</h3><p>Our relationship doesn't end after launch.</p></div>
+    </div>
+  </section>
+  <br>
+  <section id="services" class="container">
+    <div class="section-head reveal-up">
+      <div class="eyebrow">What We Do</div>
+      <h2>What We Can Build For You</h2>
+      <p>Whether you're launching a new business or elevating an existing brand, Zenith Web creates digital experiences tailored to your goals.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal-card"><i class="fa-solid fa-briefcase"></i><h3>Business Websites</h3><p>Professional sites that establish credibility and communicate what you do.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-bolt"></i><h3>Landing Pages</h3><p>Focused, high-conversion pages built around a single goal.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-image"></i><h3>Portfolio Websites</h3><p>Showcase sites that put your work front and center.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-building"></i><h3>Corporate Websites</h3><p>Structured, scalable sites for established organizations.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-user-tie"></i><h3>Personal Brands</h3><p>Sites that reflect an individual's voice, work, and reputation.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-layer-group"></i><h3>UI/UX Design</h3><p>Interfaces mapped to how people actually think, move, and decide.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-arrows-rotate"></i><h3>Website Redesign</h3><p>Modernizing dated sites into fast, credible, on-brand experiences.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-shield-halved"></i><h3>Website Maintenance</h3><p>Ongoing care — updates, monitoring, and support after launch.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-gauge"></i><h3>Performance Optimization</h3><p>Faster load times and smoother experiences across every device.</p></div>
+      <div class="service-card reveal-card"><i class="fa-solid fa-palette"></i><h3>Brand Identity Support</h3><p>Visual direction that keeps your site consistent with your brand.</p></div>
+    </div>
+  </section>
+  <br>
+  <section id="pricing" class="container">
+    <div class="section-head section-head--center reveal-up">
+      <div class="eyebrow">Transparent Pricing</div>
+      <h2>Invest in your brand's future.</h2>
+      <p>Premium websites at prices that make sense for growing businesses. No hidden fees, just real value.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal-card">
+        <h3>Starter</h3>
+        <span class="original-price">₦30,000</span>
+        <div class="price">₦20,000 <small>/ one-time</small></div>
+        <span class="save-badge">Save ₦10,000</span>
+        <p class="period">Perfect for new businesses</p>
+        <ul>
+          <li><i class="fa-solid fa-check"></i> Single-page website</li>
+          <li><i class="fa-solid fa-check"></i> Fully responsive</li>
+          <li><i class="fa-solid fa-check"></i> Mobile optimized</li>
+          <li><i class="fa-solid fa-check"></i> SEO ready</li>
+          <li><i class="fa-solid fa-check"></i> Contact form</li>
+          <li><i class="fa-solid fa-check"></i> Fast loading</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="pricing-card featured reveal-card">
+        <span class="badge">Most Popular</span>
+        <h3>Professional</h3>
+        <span class="original-price">₦70,000</span>
+        <div class="price">₦45,000 <small>/ one-time</small></div>
+        <span class="save-badge">Save ₦25,000</span>
+        <p class="period">The sweet spot for growing brands</p>
+        <ul>
+          <li><i class="fa-solid fa-check"></i> 5-page website</li>
+          <li><i class="fa-solid fa-check"></i> WhatsApp integration</li>
+          <li><i class="fa-solid fa-check"></i> Multi-page structure</li>
+          <li><i class="fa-solid fa-check"></i> Advanced SEO</li>
+          <li><i class="fa-solid fa-check"></i> Custom UI/UX</li>
+          <li><i class="fa-solid fa-check"></i> 30-day support</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Get Started <i class="fa-solid fa-arrow-up-right"></i></a>
+      </div>
+      <div class="pricing-card reveal-card">
+        <h3>Custom</h3>
+        <div class="price">Let's Talk <small></small></div>
+        <span class="save-badge">Tailored to you</span>
+        <p class="period">E-commerce, booking, dashboards & more</p>
+        <ul>
+          <li><i class="fa-solid fa-check"></i> Custom features</li>
+          <li><i class="fa-solid fa-check"></i> E-commerce & payments</li>
+          <li><i class="fa-solid fa-check"></i> Advanced integrations</li>
+          <li><i class="fa-solid fa-check"></i> Ongoing support</li>
+          <li><i class="fa-solid fa-check"></i> Priority delivery</li>
+          <li><i class="fa-solid fa-check"></i> Dedicated team</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section id="process" class="container">
+    <div class="section-head reveal-up">
+      <div class="eyebrow">Our Process</div>
+      <h2>From Vision to Reality.</h2>
+      <p>Every exceptional website begins with understanding your business. Our process is designed to keep everything transparent, collaborative, and focused on delivering a digital experience that truly represents your brand.</p>
+    </div>
+    <div class="process-wrap">
+      <div class="process-line"><div class="process-line__fill" id="processFill"></div></div>
+      <div class="process-step reveal-card">
+        <div class="process-step__num">01</div>
+        <h3>Discovery</h3>
+        <p>Every project begins with a conversation. We take time to understand your business, your audience, your goals, and what success looks like before making any design decisions.</p>
+      </div>
+      <div class="process-step reveal-card">
+        <div class="process-step__num">02</div>
+        <h3>Strategy</h3>
+        <p>We carefully plan your website's structure, user journey, content hierarchy, and overall experience to ensure every page has a clear purpose.</p>
+      </div>
+      <div class="process-step reveal-card">
+        <div class="process-step__num">03</div>
+        <h3>Design</h3>
+        <p>Using modern design principles, thoughtful typography, refined layouts, and purposeful interactions, we transform ideas into beautiful digital experiences.</p>
+      </div>
+      <div class="process-step reveal-card">
+        <div class="process-step__num">04</div>
+        <h3>Development</h3>
+        <p>Every website is handcrafted using clean, maintainable code with performance, responsiveness, accessibility, and scalability at its core.</p>
+      </div>
+      <div class="process-step reveal-card">
+        <div class="process-step__num">05</div>
+        <h3>Launch &amp; Support</h3>
+        <p>Before launch, every page is tested across devices and browsers to ensure a flawless experience. Even after launch, we're available to help your website continue performing at its best.</p>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section id="portfolio" class="container">
+    <div class="section-head reveal-up">
+      <div class="eyebrow">Our Work</div>
+      <h2>Websites That Deliver Results.</h2>
+      <p>Each project is built with the same standard — premium design, clean code, and real business impact.</p>
+    </div>
+    <div class="case-study reveal-card">
+      <div class="case-study__media" id="caseMedia">
+        <div class="case-study__chrome">
+          <span></span><span></span><span></span>
+          <div class="case-study__chrome-bar"><i class="fa-solid fa-lock" style="font-size:0.6rem; margin-right:6px; opacity:0.6;"></i>bigwurahaircare.vercel.app</div>
+        </div>
+        <div class="case-study__media-clip" id="caseMediaClip">
+          <img src="assets/images/project-bigwura.png" alt="Big Wura Hair Care website preview" width="800" height="600" loading="lazy" />
+          <div class="case-study__curtain" id="caseCurtain"></div>
+        </div>
+      </div>
+      <div class="case-study__body">
+        <div class="case-study__intro">
+          <span class="case-study__tag">Featured Case Study — Beauty & Hair Care</span>
+          <h3>Big Wura Hair Care</h3>
+          <span class="case-study__story-label">The Challenge</span>
+          <p>Big Wura Hair Care needed a way to introduce their products to new customers online — something more credible than a social page, and easier to browse than a DM conversation. Without a proper website, people had no single place to see the full range, understand the brand, or feel confident before reaching out.</p>
+          <span class="case-study__story-label">The Solution</span>
+          <p>We designed and built a clean, premium storefront that puts the product line front and center. Every decision — from navigation to how each product is presented — was made to remove friction, so customers could browse, understand what they're buying, and reach out with confidence.</p>
+          <span class="case-study__story-label">The Outcome</span>
+          <p>Big Wura Hair Care now has a website that matches the quality of their products — a stronger first impression, a more professional presence online, and something the team is genuinely proud to send to every new customer.</p>
+          <div class="case-study__actions">
+            <a href="https://bigwurahaircare.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit Website <i class="fa-solid fa-arrow-up-right"></i></a>
+          </div>
+          <p style="margin-top:18px; font-size:0.85rem; color:var(--text-faint);">Every project gets our full attention. Ready for the next one.</p>
+        </div>
+        <div class="case-study__meta">
+          <div class="case-study__meta-row">
+            <h4>Services Provided</h4>
+            <div class="case-study__chips">
+              <span>Website Design</span>
+              <span>Development</span>
+              <span>UI/UX</span>
+            </div>
+          </div>
+          <div class="case-study__meta-row">
+            <h4>Technologies Used</h4>
+            <div class="case-study__chips">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-compact-grid">
+      <div class="portfolio-card reveal-card">
+        <div class="portfolio-card__image">
+          <img src="assets/images/project-alpha.png" alt="Alpha's Affordable Accessories website preview" loading="lazy" />
+        </div>
+        <div class="portfolio-card__content">
+          <h3>A.a.A — Alpha's Affordable Accessories</h3>
+          <span class="portfolio-card__tag">Fashion &amp; Accessories</span>
+          <p class="portfolio-card__result">"Increased product visibility and customer inquiries by 40%"</p>
+          <a href="https://alpha-affordable-accessories.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-card reveal-card">
+        <div class="portfolio-card__image">
+          <img src="assets/images/project-legacy.png" alt="Legacy Graphics website preview" loading="lazy" />
+        </div>
+        <div class="portfolio-card__content">
+          <h3>Legacy Graphics</h3>
+          <span class="portfolio-card__tag">Design &amp; Print</span>
+          <p class="portfolio-card__result">"Modern portfolio that attracted 5 new clients in first month"</p>
+          <a href="https://legacy-graphics.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-card reveal-card">
+        <div class="portfolio-card__image">
+          <img src="assets/images/project-maamah.png" alt="Maamah Nails & Designs Tech website preview" loading="lazy" />
+        </div>
+        <div class="portfolio-card__content">
+          <h3>Maamah Nails &amp; Designs Tech</h3>
+          <span class="portfolio-card__tag">Beauty &amp; Nails</span>
+          <p class="portfolio-card__result">"Bookings doubled within 2 weeks of launch"</p>
+          <a href="https://maamah-nails.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section id="testimonials" class="container">
+    <div class="section-head section-head--center reveal-up">
+      <div class="eyebrow">Client Voice</div>
+      <h2>What Our Clients Say</h2>
+      <p>Real feedback from real people we've worked with.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal-card">
+        <div class="testimonial-card__mark">&ldquo;</div>
+        <p>"Working with Zenith Web was worth it, he delivered to the core and had me stunned. As a first time client, he took his time and did a job well done."</p>
+        <div class="testimonial-person">
+          <div class="testimonial-avatar">BW</div>
+          <div><strong>Big Wura Hair Care</strong><span>Client</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal-card">
+        <div class="testimonial-card__mark">&ldquo;</div>
+        <p>"The website for my accessories brand looks amazing. People actually stop to check out my products now."</p>
+        <div class="testimonial-person">
+          <div class="testimonial-avatar">AA</div>
+          <div><strong>Alpha's Affordable Accessories</strong><span>Client</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal-card">
+        <div class="testimonial-card__mark">&ldquo;</div>
+        <p>"The redesign gave my portfolio a clean, modern look. I've gotten more inquiries since the site went live."</p>
+        <div class="testimonial-person">
+          <div class="testimonial-avatar">LG</div>
+          <div><strong>Legacy Graphics</strong><span>Client</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal-card">
+        <div class="testimonial-card__mark">&ldquo;</div>
+        <p>"My booking system is finally online. Customers can now see my work and book appointments easily."</p>
+        <div class="testimonial-person">
+          <div class="testimonial-avatar">MN</div>
+          <div><strong>Maamah Nails &amp; Designs Tech</strong><span>Client</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="faq" class="container">
+    <div class="section-head reveal-up">
+      <div class="eyebrow">Questions</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list reveal-card">
+      <div class="faq-item">
+        <button class="faq-item__q"><span>How long does a website usually take?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>A Basic website is typically ready within a few days, while a multi-page Business website usually takes about one to two weeks. Custom projects depend on scope — we agree on a clear timeline before we start.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Will my website work on mobile devices?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>Yes. Every website is carefully optimized for phones, tablets, laptops, and desktop computers to provide an excellent experience on every screen.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Can you redesign my existing website?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>Absolutely. Whether your current website needs a complete transformation or a modern refresh, Zenith Web can redesign it into a faster, more beautiful, and more effective digital experience.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Do you offer support after launch?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>Yes. We continue supporting our clients after launch with updates, maintenance, and future improvements whenever needed.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Why does my business need a website if I already use social media?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>Social media helps people discover your business, while a professional website builds credibility, provides complete information, and gives you full control over your online presence.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>How do we get started?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>Simply complete the contact form or send us a WhatsApp message. We'll discuss your project, understand your goals, and recommend the best solution for your business.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>What do you need from me to get started?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>Just your business details, your logo (if you have one), any text or images you want featured, and a rough idea of the look you like. If you don't have content ready, we can help you shape it.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>What does the payment structure look like?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>We typically take a 50% deposit to begin and the balance on completion. Reach out on WhatsApp and we'll share a clear, upfront quote with no hidden fees.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Do you help with hosting and domain setup?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>Yes. We guide you through choosing a domain and hosting, and we handle the setup so your site goes live smoothly. Hosting and domain fees are billed by the provider.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Can I update the website myself after launch?</span><span class="faq-item__icon"></span></button>
+        <div class="faq-item__a"><p>Yes. We can build your site so it's easy to edit, and we are always available for updates and support whenever you need changes.</p></div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section id="contact" class="container">
+    <div class="contact-wrap">
+      <div class="contact-copy reveal-up">
+        <div class="eyebrow">Contact</div>
+        <h2>Let's Build Beyond Limits.</h2>
+        <p>Whether you're launching a startup, redesigning your business, or creating something completely new, Zenith Web is ready to bring your vision to life.</p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <i class="fa-solid fa-envelope"></i>
+            <div><h4>Email</h4><p>zenithwebofficial111@gmail.com</p></div>
+          </div>
+          <div class="contact-detail">
+            <i class="fa-solid fa-phone"></i>
+            <div><h4>Phone</h4><p>+234 708 400 7921</p></div>
+          </div>
+          <div class="contact-detail">
+            <i class="fa-solid fa-location-dot"></i>
+            <div><h4>Location</h4><p>Nigeria — Serving clients worldwide</p></div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form reveal-card" id="contactForm">
+        <div class="form-row">
+          <div class="field">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="business">Business Name</label>
+            <input type="text" id="business" name="business" placeholder="Your business" />
+          </div>
+          <div class="field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="projectType">Project Type</label>
+            <select id="projectType" name="projectType" required>
+              <option value="" disabled selected>Select project type</option>
+              <option>Business Website</option>
+              <option>Landing Page</option>
+              <option>Portfolio</option>
+              <option>E-commerce</option>
+              <option>Web Application</option>
+              <option>UI/UX Design</option>
+              <option>Branding</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="budget">Project Budget</label>
+            <select id="budget" name="budget" required>
+              <option value="" disabled selected>Select budget range</option>
+              <option>₦20k – ₦50k</option>
+              <option>₦50k – ₦100k</option>
+              <option>₦100k – ₦250k</option>
+              <option>₦250k – ₦500k</option>
+              <option>₦500k – ₦1M</option>
+              <option>₦1M+</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your project"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Project Details <i class="fa-brands fa-whatsapp"></i></button>
+        <p class="form-note"><i class="fa-brands fa-whatsapp"></i>Submitting opens WhatsApp with your project details pre-filled.</p>
+      </form>
+    </div>
+  </section>
+  <br>
+  <section class="cta-section container">
+    <div class="cta-box reveal-up">
+      <div class="eyebrow" style="justify-content:center;">Let's Talk</div>
+      <h2>Ready to Build Beyond Limits?</h2>
+      <p class="cta-sub">Let's create a digital experience that makes your brand impossible to ignore.</p>
+      <a href="#contact" class="btn btn-primary" id="ctaScrollBtn">Start Your Project <i class="fa-solid fa-arrow-up-right"></i></a>
+    </div>
+  </section>
+  <footer class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="nav__logo">
+          <img src="assets/images/logo.png" alt="Zenith Web" width="30" height="30" />
+          Zenith<span>Web</span>
+        </a>
+        <p>Crafting Digital Experiences That Elevate Brands.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#founder">Founder</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://instagram.com/zenithwebofficial111" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://tiktok.com/@zenith_web" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://ng.linkedin.com/in/collins-ifeanyichukwu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/kariosv4sure" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span id="footerYear">© 2026 Zenith Web. All Rights Reserved.</span>
+      <span>Powered by KV Labs</span>
+    </div>
+  </footer>
+  <a href="https://wa.me/2347084007921" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.25/dist/lenis.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
